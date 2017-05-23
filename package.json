@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/babel-node ./src/"
+    "start": "./node_modules/.bin/webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,13 @@
   "homepage": "https://github.com/rgjr/ski-day-counter#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
     "babel-preset-latest": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-preset-stage-0": "^6.24.1",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
     "redux": "^3.6.0"
